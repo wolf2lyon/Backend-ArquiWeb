@@ -50,4 +50,4 @@ jobs:
           app-name: 'app-red-corp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_24BC14A2FAFC433E86B2FEE841713E32 }}
-          package: '*.war'
+          package: '*.war,*.jar'
